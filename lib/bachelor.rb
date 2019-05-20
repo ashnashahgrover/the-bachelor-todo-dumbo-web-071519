@@ -56,6 +56,5 @@ def get_average_age_for_season(data, season)
   sum = 0
   ages.each { |a| sum+=a }
   sum
-  average = total / ages.size
   binding.pry
 end
