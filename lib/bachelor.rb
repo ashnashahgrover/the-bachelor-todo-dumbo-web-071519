@@ -54,7 +54,7 @@ def get_average_age_for_season(data, season)
     ages.push(contestant_info["age"].to_f)
   end 
   total = 0
-  ages.collect {|x| total + x}
+  new = ages.collect {|x| total + x}
   total
   average = total / ages.size
   binding.pry
